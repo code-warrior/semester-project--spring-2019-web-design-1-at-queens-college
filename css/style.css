@@ -1,22 +1,23 @@
 * {
-  line-height: 1.4;
+   line-height: 1.4;
 }
+
 body {
-  width: 94%;
-  margin: 0 auto;
-  background-color: rgba(190, 250, 255, 0.5);
-  font-family: 'Merriweather', serif;
+   width: 94%;
+   margin: 0 auto;
+   background-color: rgba(190, 250, 255, .5);
+   font-family: Merriweather, serif;
 }
 
 header {
-  text-align: center;
-  margin: auto;
-  padding: 0;
-  width: 20%;
+   text-align: center;
+   margin: auto;
+   padding: 0;
+   width: 20%;
 }
 
 main {
-  text-align: center;
+   text-align: center;
 }
 
 /* p {
