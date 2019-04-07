@@ -1,29 +1,74 @@
 * {
-   line-height: 1.4;
+   line-height: 1.5;
 }
 
 body {
-   width: 94%;
-   margin: 0 auto;
-   background-color: rgba(190, 250, 255, .5);
+   /* width: 94%; */
+   margin: 0 auto 70px;
+   max-width: 960px;
+   /* background-color: rgba(190, 250, 255, .5); */
+   background-color: #e0e6ed;
    font-family: Merriweather, serif;
 }
 
 header {
    text-align: center;
    margin: auto;
-   padding: 0;
-   width: 20%;
+   padding: 30px;
+   /* width: 20%; */
+}
+
+h1 {
+   font-size: 20px;
+}
+
+blockquote {
+   text-align: center;
+   padding: 20px;
+   font-size: 20px;
+   font-weight: bold;
 }
 
 main {
+   text-align: left;
+}
+
+h2 {
+   background-color: skyblue;
+   font-size: 25px;
+   font-weight: bold;
+   text-align: center;
+   padding: 20px;
+   /* margin: 20px; */
+} /*reviews*/
+
+ol {
+   padding: 30px;
+}
+
+h3 {
    text-align: center;
 }
 
-/* p {
-  line-height: 1.4;
-} */
+p {
+   line-height: 1.4;
+   padding: 10px;
+}
 
 /* ol {
    text-align: left;
 } */
+
+a:link {
+   text-decoration: none;
+   background-color: gold;
+}
+
+a:visited {
+   color: white;
+}
+
+span {
+   font-style: italic;
+   font-weight: bold;
+}
