@@ -1,4 +1,6 @@
 html {
-   background-size: auto;
+   background-image: url('../img/child-up.jpg');
+   background-size: cover;
+   background-attachment: scroll;
    background-repeat: no-repeat;
 }
