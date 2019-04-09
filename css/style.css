@@ -1,7 +1,14 @@
-html{
-   background-image: url('../img/child-up.jpg');
-   height: 100%;
+div {
+   background-image: url('../img/children-background.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
+}
+
+blockquote::before {
+   content: '“';
+}
+
+blockquote::after {
+   content: '”';
 }
