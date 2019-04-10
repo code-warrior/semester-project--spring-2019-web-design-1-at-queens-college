@@ -43,7 +43,10 @@ h2 {
 } /*reviews*/
 
 ol {
+   margin: auto;
+   width: 600px;
    padding: 30px;
+   list-style-type: decimal-leading-zero;
 }
 
 h3 {
@@ -53,6 +56,12 @@ h3 {
 p {
    line-height: 1.4;
    padding: 10px;
+}
+
+.list {
+   text-align: center;
+   color: green;
+   margin: auto;
 }
 
 /* ol {
@@ -68,6 +77,13 @@ a:visited {
    color: white;
 }
 
+b {
+  font-weight: 800;
+  font-style: italic;
+
+}
+
+/*
 span {
    font-style: italic;
    font-weight: bold;
