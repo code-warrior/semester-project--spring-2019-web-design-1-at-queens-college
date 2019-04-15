@@ -1,10 +1,26 @@
+html {
+   background-color: white;
+}
+
 div {
-   position: static;
-   background-image: url('../img/children-background.jpg');
+   /* position: static; */
+   background-image: url('../img/children-background2.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
    height: 2152px;
+}
+
+h1 {
+   margin-left: 50px;
+   font-size: 25px;
+}
+
+section {
+   margin-left: 50px;
+   margin-top: 300px;
+   font-size: 20px;
+   line-height: 30px;
 }
 
 blockquote::before {
@@ -17,10 +33,26 @@ blockquote::after {
 
 ol {
    list-style-type: decimal-leading-zero;
-   margin-left: 40px;
+   margin-top: 600px;
+   margin-left: 80px;
+   line-height: 30px;
+}
+
+a:visited {
+   color: white;
+}
+
+a:hover {
+   color: red;
 }
 
 b,
 strong {
    font-weight: 700;
+}
+
+main {
+   margin-left: 50px;
+   margin-top: 200px;
+   line-height: 20px;
 }
