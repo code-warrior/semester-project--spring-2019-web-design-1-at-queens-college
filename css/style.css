@@ -15,7 +15,7 @@ blockquote::after {
 }
 
 ol {
-   list-style-type: decimal;
+   list-style-type: decimal-leading-zero;
    margin-left: 40px;
 }
 
