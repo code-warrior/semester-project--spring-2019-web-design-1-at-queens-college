@@ -1,4 +1,5 @@
 div {
+   position: static;
    background-image: url('../img/children-background.jpg');
    background-size: cover;
    background-attachment: scroll;
