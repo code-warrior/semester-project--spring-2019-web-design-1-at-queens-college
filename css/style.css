@@ -4,11 +4,16 @@ html {
 
 div {
    /* position: static; */
-   background-image: url('../img/children-background2.jpg');
+   background-image: url('../img/children-background.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
-   height: 2152px;
+   height: 2317px;
+}
+
+span {
+   color: white;
+   font-size: 16px;
 }
 
 h1 {
@@ -18,9 +23,9 @@ h1 {
 
 section {
    margin-left: 50px;
-   margin-top: 300px;
+   margin-top: 600px;
    font-size: 20px;
-   line-height: 30px;
+   line-height: 35px;
 }
 
 blockquote::before {
@@ -33,9 +38,14 @@ blockquote::after {
 
 ol {
    list-style-type: decimal-leading-zero;
-   margin-top: 600px;
+   margin-top: 180px;
    margin-left: 80px;
-   line-height: 30px;
+   line-height: 36px;
+   font-size: 18px;
+}
+
+a {
+   color: black;
 }
 
 a:visited {
@@ -43,7 +53,8 @@ a:visited {
 }
 
 a:hover {
-   color: red;
+   color: rgb(77, 184, 171);
+   background-color: white;
 }
 
 b,
@@ -53,6 +64,23 @@ strong {
 
 main {
    margin-left: 50px;
-   margin-top: 200px;
-   line-height: 20px;
+   margin-right: 200px;
+   line-height: 20px;;
+}
+
+p {
+   padding-top: 60px;
+}
+
+blockquote {
+   padding-top: 60px;
+   text-align: center;
+}
+
+div:last-child {
+   background-image: url('../img/bike-girl.jpg');
+   background-size: cover;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   height: 1856px;
 }
