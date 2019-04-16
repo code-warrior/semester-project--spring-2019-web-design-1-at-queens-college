@@ -11,21 +11,29 @@ div {
    height: 2317px;
 }
 
-span {
-   color: white;
-   font-size: 16px;
-}
-
 h1 {
    margin-left: 50px;
-   font-size: 25px;
+   padding-top: 50px;
+   font-size: 30px;
+}
+
+h1:nth-child(2) {
+   color: white;
+}
+
+span {
+   color: white;
+   font-size: 20px;
+}
+
+b {
+   font-size: 20px;
 }
 
 section {
    margin-left: 50px;
-   margin-top: 600px;
-   font-size: 20px;
-   line-height: 35px;
+   margin-top: 300px;
+   line-height: 50px;
 }
 
 blockquote::before {
@@ -36,12 +44,17 @@ blockquote::after {
    content: '”';
 }
 
+b,
+strong {
+   font-weight: 700;
+}
+
 ol {
    list-style-type: decimal-leading-zero;
-   margin-top: 180px;
+   margin-top: 300px;
    margin-left: 80px;
    line-height: 36px;
-   font-size: 18px;
+   font-size: 20px;
 }
 
 a {
@@ -57,27 +70,25 @@ a:hover {
    background-color: white;
 }
 
-b,
-strong {
-   font-weight: 700;
-}
-
 main {
-   margin-left: 50px;
-   margin-right: 200px;
-   line-height: 20px;;
+   text-align: justify;
+   margin-left: 100px;
+   margin-right: 100px;
+   line-height: 25px;
+   font-size: 20px;
 }
 
 p {
-   padding-top: 60px;
+   padding-top: 400px;
 }
 
 blockquote {
-   padding-top: 60px;
+   padding-top: 400px;
    text-align: center;
 }
 
 div:last-child {
+   position: static;
    background-image: url('../img/bike-girl.jpg');
    background-size: cover;
    background-attachment: scroll;
