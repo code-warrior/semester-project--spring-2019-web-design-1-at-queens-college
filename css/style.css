@@ -19,6 +19,7 @@ h1 {
 
 h1:nth-child(2) {
    color: white;
+   margin-top: -40px;
 }
 
 span {
@@ -33,7 +34,7 @@ b {
 section {
    margin-left: 50px;
    margin-top: 300px;
-   line-height: 50px;
+   line-height: 30px;
 }
 
 blockquote::before {
@@ -51,7 +52,7 @@ strong {
 
 ol {
    list-style-type: decimal-leading-zero;
-   margin-top: 300px;
+   margin-top: 350px;
    margin-left: 80px;
    line-height: 36px;
    font-size: 20px;
@@ -87,11 +88,20 @@ blockquote {
    text-align: center;
 }
 
+.edbob {
+   text-align: center;
+}
+
 div:last-child {
-   position: static;
    background-image: url('../img/bike-girl.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
    height: 1856px;
+}
+
+a:last-child {
+   color: black;
+   margin-left: 100px;
+   background-color: red;
 }
