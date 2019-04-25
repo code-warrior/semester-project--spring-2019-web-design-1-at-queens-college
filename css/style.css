@@ -73,8 +73,10 @@ a:hover {
 
 main {
    text-align: justify;
-   margin-left: 100px;
-   margin-right: 100px;
+   width: 566px;
+   /* margin-left: 100px;
+   margin-right: 100px; */
+   margin: auto;
    line-height: 25px;
    font-size: 20px;
 }
