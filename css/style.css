@@ -1,0 +1,41 @@
+h1 {
+   font-family: 'Playfair Display SC', serif;
+   font-style: normal;
+   font-variant: small-caps;
+   font-size: 30px;
+}
+
+ol {
+   list-style-type: upper-roman;
+   margin-left: 30px;
+}
+
+i {
+   font-style: italic;
+}
+
+ol {
+   font-family: 'Playfair Display', serif;
+   font-style: normal;
+   font-variant: small-caps;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 2;
+   margin: 10px;
+   border: 10px green;
+}
+
+body{
+   background-color: red;
+	background-image: url(‘../img/ ctrlv);
+	background-repeat: no repeat;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+	background-position: 20px | 20px
+					    50%  | 50%
+				   	      X        Y
+	background-position: calc(50vw - 75px) calc(50vh - 75px);
+		THIS CENTERS THE IMG (50 IS HALF THE SIZE OF THE IMG)
+	background-size: cover;
+
+}
