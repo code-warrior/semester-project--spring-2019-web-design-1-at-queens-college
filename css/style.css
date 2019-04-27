@@ -1,12 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   margin: auto;
+   width: 1440px;
+   background-color: white;
+}
+
+#container {
+   background-color: black;
+   width: 1440px;
+   height: 560px;
+}
+
 h1 {
+   padding-top: 30px;
    font-family: 'Playfair Display SC', serif;
    font-style: normal;
    font-variant: small-caps;
-   font-size: 30px;
+   text-align: center;
+   color: white;
+   font-size: 6rem;
+}
+
+blockquote {
+   color: white;
+}
+
+h2 {
+   text-align: center;
 }
 
 ol {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
    list-style-type: upper-roman;
+   list-style-position: inside;
    margin-left: 30px;
 }
 
@@ -23,19 +55,4 @@ ol {
    line-height: 2;
    margin: 10px;
    border: 10px green;
-}
-
-body{
-   background-color: red;
-	background-image: url(‘../img/ ctrlv);
-	background-repeat: no repeat;
-	background-repeat: repeat-x;
-	background-repeat: repeat-y;
-	background-position: 20px | 20px
-					    50%  | 50%
-				   	      X        Y
-	background-position: calc(50vw - 75px) calc(50vh - 75px);
-		THIS CENTERS THE IMG (50 IS HALF THE SIZE OF THE IMG)
-	background-size: cover;
-
 }
