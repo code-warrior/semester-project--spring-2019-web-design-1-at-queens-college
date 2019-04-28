@@ -2,15 +2,6 @@
    line-height: 1.5;
 }
 
-body {
-   /* width: 94%; */
-   margin: 0 auto 70px;
-   max-width: 960px;
-   /* background-color: rgba(190, 250, 255, .5); */
-   background-color: #e0e6ed;
-   font-family: Merriweather, serif;
-}
-
 header {
    text-align: center;
    margin: auto;
@@ -19,7 +10,16 @@ header {
 }
 
 h1 {
-   font-size: 20px;
+   font-size: 25px;
+}
+
+body {
+   /* width: 94%; */
+   margin: 0 auto 70px;
+   max-width: 960px;
+   /* background-color: rgba(190, 250, 255, .5); */
+   background-color: #e0e6ed;
+   font-family: Merriweather, serif;
 }
 
 blockquote {
@@ -36,7 +36,7 @@ main {
 h2 {
    background-color: skyblue;
    font-size: 25px;
-   font-weight: bold;
+   font-weight: 700;
    text-align: center;
    padding: 20px;
    /* margin: 20px; */
@@ -78,13 +78,16 @@ a:visited {
 }
 
 b {
-  font-weight: 800;
-  font-style: italic;
+   font-weight: 800;
+   font-style: italic;
+}
 
+img {
+   padding: 20px;
 }
 
 /*
 span {
    font-style: italic;
    font-weight: bold;
-}
+} */
