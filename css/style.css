@@ -1,126 +1,141 @@
 * {
-   margin: 0;
-   padding: 0;
+
+}
+
+#left-side {
+   float: left;
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+   position: fixed;
+   /* background-color: #FAF5F4; */
+   background-color: #F2E5D2;
 }
 
 body {
-   width: 100%;
-   max-width: 940px;
-   margin: auto;
    font-family: 'Roboto Condensed', sans-serif;
-   line-height: 25px;
-   background-color: #ededf5;
+   font-weight: 400;
+   line-height: 1.4;
 }
 
 h1 {
-   font-family: 'Merriweather', serif;
-   text-align: center;
-   background-color: skyblue;
-   color: #1210eb;
-   font-size: 30px;
-   /* margin: 40px; */
-   margin-bottom: 50px;
+   /* font-family: 'Merriweather', serif; */
+   font-family: 'Anton', sans-serif;
+   font-weight: 400;
+   font-size: 1.6rem;
+   margin: 15px 20px;
+   color: #35373B;
 }
 
-.arvo-img {
-   display: flex;
-   justify-content: center;
+.quote-container {
+   font-size: 1.2rem;
+   font-weight: 400;
+   width: 535px;
+   margin: 30px auto;
 }
 
-.album-img {
+.quote-container > cite {
    display: flex;
+   justify-content: flex-end;
+   color: #74784D;
+}
+
+.album-container {
+   display: flex;
+   flex-direction: column;
+   width: 200px;
    margin: auto;
-}
-
-blockquote {
-   position: relative;
-   display: flex;
-   font-size: 25px;
-   text-align: right;
-   margin: 20px;
-}
-
-cite {
+   text-align: center;
    font-weight: 300;
-   font-size: 1rem;
+   font-size: .8rem;
 }
 
-.img-cite {
-   display: flex;
-   justify-content: center;
-   /* background-color: green; */
+.album-tracks {
+   margin: 20px auto;
+   width: 518px;
+   /* background-color: skyblue; */
 }
 
-.main-cite {
-   display: flex;
-   justify-content: center;
-   /* background-color: pink; */
-   margin-bottom: 30px;
-}
-
-#quote-container {
-   position: relative;
-   display: flex;
-   align-items: center;
-   height: 800px;
-   background-color: #e5d8fe;
-   padding-bottom: 50px;
-   padding-top: 50px;
-}
-
-.main-cite {
-   position: absolute;
-   top: 300px;
-   right: 50px;
-}
-
-ol {
-   display: block;
-   margin: 0 auto;
+li {
    list-style-type: decimal-leading-zero;
    list-style-position: inside;
+   line-height: 1.5;
 }
 
-.album-and-tracks {
-   position: relative;
-   left: 220px;
-   top: 30px;
+#left-side a {
+   text-decoration: none;
 }
 
-.second-section {
-   margin-top: 200px;
-   margin-bottom: 230px;
+#left-side a:link {
+   color: orange;
+}
+
+#left-side a:visited {
+   color: #35373B;
+}
+
+#left-side a:hover {
+   background-color: pink;
+   transition: .3s;
+}
+
+/* -------------right----side------------------------------ */
+
+#right-side {
+   float: right;
+   width: 50%;
+   overflow-y: auto;
+   /* background-color: #D6D3D2; */
+   background-color: #CBCAC2;
 }
 
 h2 {
-   text-align: center;
-   margin-top: 100px;
-   margin-bottom: 50px;
-   font-size: 4rem;
+   font-family: 'Roboto Condensed', sans-serif;
    font-weight: 700;
+   font-size: 2rem;
+   text-align: center;
+   color: #797977;
+   margin: 20px 0;
 }
 
 p {
    margin: 20px 0;
 }
 
-a:link {
-   text-decoration: none;
-   color: red;
+.all-music-review {
+   margin: 40px auto;
+   width: 525px;
 }
 
-a:hover {
-   background-color: yellow;
-   transition-duration: .5s;
-}
-
-a:visited {
-   color: purple;
-}
-
-a {
+.all-music-review > cite {
    display: flex;
-   justify-content: right;
-   background-color: gray;
-   margin: 20px;
+   justify-content: flex-end;
+}
+
+.ecm-review {
+   margin: 40px auto;
+   width: 525px;
+}
+
+.ecm-review > cite {
+   display: flex;
+   justify-content: flex-end;
+}
+
+#right-side a {
+   font-weight: 300;
+   text-decoration: none;
+}
+
+#right-side a:link {
+   color: yellow;
+}
+
+#right-side a:visited {
+   color: green;
+}
+
+#right-side a:hover {
+   color: pink;
+   transition: .3s;
 }
