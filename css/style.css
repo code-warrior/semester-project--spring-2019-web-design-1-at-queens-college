@@ -1,7 +1,3 @@
-* {
-
-}
-
 #left-side {
    float: left;
    width: 50%;
@@ -17,7 +13,7 @@ body {
    font-weight: 400;
    line-height: 1.4;
    /* color: #3B4C7A; */
-   color: #1A5AC0;
+   color: #1a5ac0;
 }
 
 h1 {
@@ -27,7 +23,7 @@ h1 {
    font-weight: 400;
    font-size: 1.6rem;
    margin: 15px 20px;
-   color: #35373B;
+   color: #35373b;
 }
 
 .quote-container {
@@ -79,7 +75,7 @@ li {
 }
 
 #left-side a:visited {
-   color: #35373B;
+   color: #35373b;
 }
 
 #left-side a:hover {
@@ -94,7 +90,7 @@ li {
    width: 50%;
    overflow-y: auto;
    /* background-color: #D6D3D2; */
-   background-color: #F2E5D2;
+   background-color: #f2e5d2;
 }
 
 h2 {
