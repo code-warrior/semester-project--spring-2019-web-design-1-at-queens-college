@@ -9,13 +9,15 @@
    overflow: hidden;
    position: fixed;
    /* background-color: #FAF5F4; */
-   background-color: #F2E5D2;
+   /* background-color: #F2E5D2; */
 }
 
 body {
    font-family: 'Roboto Condensed', sans-serif;
    font-weight: 400;
    line-height: 1.4;
+   /* color: #3B4C7A; */
+   color: #1A5AC0;
 }
 
 h1 {
@@ -28,16 +30,19 @@ h1 {
 }
 
 .quote-container {
-   font-size: 1.2rem;
-   font-weight: 400;
+   font-size: 1.3rem;
+   font-weight: 700;
    width: 535px;
    margin: 30px auto;
+   /* color: #525779; */
 }
 
 .quote-container > cite {
    display: flex;
    justify-content: flex-end;
-   color: #74784D;
+   font-weight: 300;
+   font-family: 'Merriweather', serif;
+   font-size: 1rem;
 }
 
 .album-container {
@@ -51,15 +56,16 @@ h1 {
 }
 
 .album-tracks {
-   margin: 20px auto;
+   margin: 30px auto;
    width: 518px;
    /* background-color: skyblue; */
+   color: #525779;
 }
 
 li {
    list-style-type: decimal-leading-zero;
    list-style-position: inside;
-   line-height: 1.5;
+   line-height: 1.7;
 }
 
 #left-side a {
@@ -86,7 +92,7 @@ li {
    width: 50%;
    overflow-y: auto;
    /* background-color: #D6D3D2; */
-   background-color: #CBCAC2;
+   background-color: #F2E5D2;
 }
 
 h2 {
