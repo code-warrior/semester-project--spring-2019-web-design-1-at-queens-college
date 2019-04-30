@@ -30,7 +30,7 @@ h1 {
 }
 
 .quote-container {
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    font-weight: 700;
    width: 535px;
    margin: 30px auto;
@@ -42,7 +42,7 @@ h1 {
    justify-content: flex-end;
    font-weight: 300;
    font-family: 'Merriweather', serif;
-   font-size: 1rem;
+   font-size: .9rem;
 }
 
 .album-container {
