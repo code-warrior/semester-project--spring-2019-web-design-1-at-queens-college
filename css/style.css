@@ -1,0 +1,58 @@
+body{
+   background-color:#E6FFFE;
+   color: #545754;
+   text-align: center;
+   font-family: 'Quicksand', sans-serif;
+   font-size: 16px;
+   margin-top:40px;
+}
+h1{
+   position:fixed;
+   width:100%;
+   top:0;
+   left:0;
+   text-align: center;
+   padding:15px;
+   border-bottom: 2px;
+   border-bottom-style: solid;
+   background-color: #E6FFFE;
+   text-shadow: 3px 3px 6px #909691;
+   font-size: 42px;
+   z-index: 5;
+   font-family: 'Overpass Mono', monospace;
+}
+div.main{
+   position:relative;
+}
+ol{
+   padding:30px;
+   margin:auto;
+   width: 350px;
+}
+li{
+   margin:10px;
+   padding-bottom: 10px;
+   list-style-type: decimal;
+}
+p.quote{
+   position: relative;
+   width: 1000px;
+   padding-top: 50px;
+   margin:auto;
+
+}
+p.credit{
+   font-style:italic;
+   margin-top:10px;
+
+}
+p.reviews{
+   padding: 30px;
+   width: 1000px;
+   margin:auto;
+}
+p.second-ol{
+   margin-left:0px;
+   padding-top:30px;
+
+}
