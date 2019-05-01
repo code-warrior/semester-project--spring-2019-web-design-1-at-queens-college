@@ -66,3 +66,14 @@ ol {
   margin-left: 50px;
   list-style-type:decimal;
 }
+
+blockquote,
+q::before {
+  content: "«";
+  color: blue;
+}
+
+q::after {
+  content: "»";
+  color: red;
+}
