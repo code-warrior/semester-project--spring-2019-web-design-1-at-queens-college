@@ -65,12 +65,8 @@ ol {
 }
 
 a {
-   color: black;
-   text-decoration: none;
-}
-
-a:visited {
    color: white;
+   text-decoration: none;
 }
 
 a:hover {
@@ -90,11 +86,11 @@ main {
 }
 
 p {
-   padding-top: 400px;
+   padding-top: 200px;
 }
 
 blockquote {
-   padding-top: 400px;
+   padding-top: 200px;
    text-align: center;
 }
 
@@ -115,12 +111,12 @@ div:last-child {
 .magazine {
    position: relative;
    text-decoration: none;
-   color: black;
+   color: white;
    background-color: rgb(77, 184, 171);
    /* margin-top: 1780px;
    padding: 5px; */
    top: 2490px;
    left: 70px;
    font-size: 35px;
-   padding: 20px;
+   padding: 10px;
 }
