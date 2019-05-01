@@ -1,0 +1,21 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h2 {
+  background-color: rgba(204, 255, 204, 1);
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ol {
+  margin-left: 50px;
+  margin-right: 50px;
+}
