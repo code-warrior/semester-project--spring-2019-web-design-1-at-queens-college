@@ -86,9 +86,6 @@ ul li:hover{
   color: white;
 }
 
-cite{
-position: static;
-}
 
 .image1 {
   display: inline-block;
@@ -99,6 +96,7 @@ position: static;
 .image2 {
 width: 100%;
 height: auto;
+margin-top: 20px;
 }
 
 p {
@@ -107,9 +105,17 @@ p {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: 30px;
-  color: black;
+  color: white;
   font-size: 20px;
-  font-family: 'Alice';
+  font-family: 'Patua One';
+  line-height: 1.2;
+}
+
+.concon {
+  background-color: black;
+  padding: 30px;
+  margin: 50px;
+
 }
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
@@ -146,4 +152,8 @@ blockquote span{
   font-style: normal;
   font-weight: bold;
   margin-top:1em;
+}
+
+a {
+  text-decoration: none;
 }
