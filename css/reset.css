@@ -112,6 +112,13 @@ p {
   line-height: 1.2;
 }
 
+.caption{
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  margin: 0px;
+}
+
 .concon {
   background-color: black;
   padding: 30px;
