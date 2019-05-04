@@ -87,6 +87,8 @@ a:hover {
 }
 
 main {
+   font-family: Changa, sans-serif;
+   font-weight: 400;
    text-align: justify;
    width: 600px;
    /* margin-left: 100px;
@@ -114,7 +116,7 @@ div:last-child {
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
-   margin-top: 40px;
+   margin-top: 150px;
    /* height: 1856px; */
    /* height: 2613px; */
    height: 2051px;
