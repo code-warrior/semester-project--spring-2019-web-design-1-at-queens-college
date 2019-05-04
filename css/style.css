@@ -7,8 +7,6 @@ div {
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
-   /* height: 2317px; */
-   /* height: 3496px; */
    height: 2610px;
 }
 
@@ -101,8 +99,6 @@ main {
    font-weight: 400;
    text-align: justify;
    width: 600px;
-   /* margin-left: 100px;
-   margin-right: 100px; */
    margin: auto;
    line-height: 28px;
    font-size: 23px;
@@ -127,8 +123,6 @@ div:last-child {
    background-attachment: scroll;
    background-repeat: no-repeat;
    margin-top: 150px;
-   /* height: 1856px; */
-   /* height: 2613px; */
    height: 2051px;
 }
 
@@ -138,8 +132,6 @@ div:last-child {
    text-decoration: none;
    color: white;
    background-color: rgb(77, 184, 171);
-   /* margin-top: 1780px;
-   padding: 5px; */
    top: 1934px;
    left: 70px;
    font-size: 35px;
