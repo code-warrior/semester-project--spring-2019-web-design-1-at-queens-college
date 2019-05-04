@@ -12,6 +12,16 @@ div {
    height: 2610px;
 }
 
+@media (min-width: 1281px) {
+   div {
+      background-image: url('../img/children-background-big.jpg');
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      height: 3496px;
+   }
+}
+
 h1 {
    font-family: Audiowide, cursive;
    position: relative;
@@ -134,4 +144,21 @@ div:last-child {
    left: 70px;
    font-size: 35px;
    padding: 5px;
+}
+
+@media (min-width: 1281px) {
+   div:last-child {
+      background-image: url('../img/bike-girl-big.jpg');
+      background-size: cover;
+      background-attachment: scroll;
+      background-repeat: no-repeat;
+      margin-top: 150px;
+      height: 2613px;
+   }
+
+   .magazine {
+      top: 2489px;
+      left: 70px;
+      padding: 5px;
+   }
 }
