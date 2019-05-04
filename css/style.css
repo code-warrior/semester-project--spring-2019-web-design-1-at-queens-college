@@ -17,20 +17,21 @@ h1 {
    width: 806px;
    margin-left: 70px;
    padding-top: 50px;
-   font-size: 50px;
+   font-size: 40px;
    font-weight: 700;
 }
 
 h1:nth-child(2) {
    color: white;
    bottom: 42px;
-   left: 350px;
-   font-size: 40px;
+   left: 255px;
+   font-size: 35px;
 }
 
 span {
-   color: white;
+   color: black;
    font-size: 30px;
+   font-weight: 700;
 }
 
 b {
@@ -42,6 +43,7 @@ section {
    margin-top: 300px;
    line-height: 40px;
    width: 528px;
+   color: white;
 }
 
 blockquote::before {
