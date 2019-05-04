@@ -3,12 +3,13 @@ html {
 }
 
 div {
-   background-image: url('../img/children-background-big.jpg');
+   background-image: url('../img/children-background-1280.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
    /* height: 2317px; */
-   height: 3496px;
+   /* height: 3496px; */
+   height: 2610px;
 }
 
 h1 {
@@ -99,13 +100,14 @@ blockquote {
 }
 
 div:last-child {
-   background-image: url('../img/bike-girl-big.jpg');
+   background-image: url('../img/bike-girl-1280.jpg');
    background-size: cover;
    background-attachment: scroll;
    background-repeat: no-repeat;
    margin-top: 200px;
    /* height: 1856px; */
-   height: 2613px;
+   /* height: 2613px; */
+   height: 2051px;
 }
 
 .magazine {
@@ -115,7 +117,7 @@ div:last-child {
    background-color: rgb(77, 184, 171);
    /* margin-top: 1780px;
    padding: 5px; */
-   top: 2490px;
+   top: 1940px;
    left: 70px;
    font-size: 35px;
    padding: 10px;
