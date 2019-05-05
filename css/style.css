@@ -87,8 +87,8 @@ h2 {
    list-style-type: upper-roman;
    list-style-position: inside;
    margin-left: 30px; */
-   position: relative;
-   border-bottom: 8px solid #898989;
+   margin-top: 550px;
+   border-bottom: 8px solid #5b5b5b;
    padding-bottom: 60px;
    display: flex;
    text-align: center;
@@ -160,7 +160,6 @@ main {
 }
 
 h3 {
-   padding-top: 550px;
    padding-bottom: 60px;
    font-family: 'Playfair Display SC', serif;
    font-style: normal;
