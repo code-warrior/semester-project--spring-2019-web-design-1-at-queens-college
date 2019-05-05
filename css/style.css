@@ -1,0 +1,69 @@
+body{
+  height: 2000px;
+  font-family: Chivo, sans-serif;
+  background-color: black;
+}
+h1{
+  margin-left: 100px;
+}
+.by{
+  margin-left:110px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #869CB0;
+}
+
+.album{
+ font-weight: 300;
+  font-size: 60px;
+  color: #869CB0;
+}
+.band{
+font-weight: 300;
+  font-size: 60px;
+  color:#869CB0;
+}
+
+.img{
+  text-align: center;
+}
+
+main {
+   display: flex;
+
+}
+figure {
+   position: relative;
+}
+figure > img {
+   padding-top: 80px;
+   width: 400px;
+   height: 300px;
+}
+figure + p {
+   background-color: white;
+   text-align: center;
+   font-weight: 800;
+   font-size: 30px;
+   padding-top: 5px;
+   position: relative;
+}
+ul{
+  list-style-type: none;
+  border-bottom: dash;
+  font-size: 30px;
+  font-weight: lighter;
+  color: #869CB0;
+  margin-left: 100px;
+
+}
+
+.long{
+  background-image: url('../img/d.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  color:#869CB0;
+  text-align: center;
+
+  padding: 250px;
+}
