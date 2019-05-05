@@ -19,6 +19,7 @@ nav {
 }
 
 .title {
+   position: fixed;
    font-style: normal;
    font-variant: small-caps;
    margin-left: 3%;
@@ -146,8 +147,17 @@ a:hover {
    transition: 500ms;
 }
 
+main {
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 50px;
+   width: 1024px;
+   text-align: center;
+   color: #c9c9c9;
+}
+
 h3 {
-   padding-top: 500px;
+   padding-top: 480px;
    padding-bottom: 60px;
    font-family: 'Playfair Display SC', serif;
    font-style: normal;
@@ -163,10 +173,14 @@ h3 {
    padding-bottom: 20px;
 }
 
+.Review1 p {
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
 .Review2 {
    margin-top: 20px;
    border-top: 1px solid #c9c9c9;
-   border-bottom: 1px solid #c9c9c9;
    padding-top: 40px;
    padding-bottom: 20px;
 }
@@ -187,49 +201,24 @@ h3 {
    line-height: 2;
    list-style-type: upper-roman;
    list-style-position: inside;
+   padding-top: 10px;
+   padding-bottom: 10px;
 }
 
 p {
    font-family: 'Playfair Display', serif;
    padding: 1px 50px 1px 10px;
-   line-height: 1.4;
-}
-
-/* p:nth-child(1) {
-   padding: 50px;
-} */
-.One {
-   width: 150px;
+   line-height: 1.5;
 }
 
 span {
    font-family: 'Playfair Display', serif;
-   /* font-family: 'Playfair Display SC', serif; */
    font-size: 1.4rem;
 }
 
 .by {
-   font-family: 'Playfair Display', serif;
+   font-family: 'Playfair Display SC', serif;
    font-style: normal;
    text-align: right;
+   font-size: 1.4rem;
 }
-
-main {
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 50px;
-   width: 1024px;
-   text-align: center;
-   color: #c9c9c9;
-}
-/* ol:nth-child(1),
-ol:nth-child(2),
-ol:nth-child(3),
-ol:nth-child(4),
-ol:nth-child(5) {
-   margin: 50px;
-} */
-/* li:nth-child(1) {
-   display: block;
-   width: 25%;
-} */
