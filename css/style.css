@@ -1,58 +1,275 @@
+html{
+   scroll-behavior:smooth;
+}
+
 body{
+   position: relative;
    background-color:#E6FFFE;
    color: #545754;
-   text-align: center;
    font-family: 'Quicksand', sans-serif;
+   font-weight: 400;
+   line-height: 1.25em;
    font-size: 16px;
-   margin-top:40px;
+   z-index: 3;
 }
-h1{
-   position:fixed;
-   width:100%;
-   top:0;
-   left:0;
-   text-align: center;
-   padding:15px;
-   border-bottom: 2px;
-   border-bottom-style: solid;
-   background-color: #E6FFFE;
-   text-shadow: 3px 3px 6px #909691;
-   font-size: 42px;
-   z-index: 5;
-   font-family: 'Overpass Mono', monospace;
-}
-div.main{
-   position:relative;
-}
-ol{
-   padding:30px;
-   margin:auto;
-   width: 350px;
-}
-li{
-   margin:10px;
-   padding-bottom: 10px;
-   list-style-type: decimal;
-}
-p.quote{
-   position: relative;
-   width: 1000px;
-   padding-top: 50px;
-   margin:auto;
 
+div{
+   padding:6em;
+   height:calc(100vh - 12em);
 }
+
 p.credit{
-   font-style:italic;
-   margin-top:10px;
-
+   position:absolute;
+   padding-top:20px;
+   right:260px;
+   text-align:right;
+   font-size:24px;
 }
-p.reviews{
-   padding: 30px;
-   width: 1000px;
-   margin:auto;
-}
-p.second-ol{
-   margin-left:0px;
-   padding-top:30px;
 
+div.quote{
+   background-image: url('../img/prism-white-background.png');
+   background-attachment: fixed;
+   background-size:cover;
+   padding-top: 300px;
+   font-family: 'Cinzel', serif;
+   font-style: italic;
+   line-height: normal;
+   font-size: 36px;
+   text-align:center;
+   text-shadow: 3px 3px 5px #909691;
+}
+
+div.intro{
+   position: relative;
+   background-color: transparent;
+   line-height: 1.5em;
+}
+
+div.intro > h1{
+   position:absolute;
+   font-size:36px;
+   right:125px;
+}
+
+.protrait{
+   position:absolute;
+   top:10%;
+   left:-350px;
+   z-index: 1;
+}
+
+div.intro > p:first-of-type{
+   overflow-wrap:unset;
+   position:absolute;
+   text-align: left;
+   font-size:18px;
+   width:15%;
+   padding: 5px;
+   float:right;
+   right:620px;
+   margin:100px 0px 200px 200px;
+   z-index: 2;
+}
+
+div.intro > p:nth-of-type(2){
+   overflow-wrap:unset;
+   right:345px;
+   position:absolute;
+   text-align: left;
+   font-size:18px;
+   width:15%;
+   padding: 5px;
+   float:left;
+   margin:100px 0px 200px 0px;
+   z-index: 2;
+}
+
+div.intro > p:nth-of-type(3){
+   overflow-wrap:unset;
+   right:85px;
+   position:absolute;
+   text-align: left;
+   font-size:18px;
+   width:15%;
+   padding: 5px;
+   float:left;
+   margin:100px 0px 200px 0px;
+   z-index: 3;
+}
+
+div.album{
+   position: relative;
+   background-image: url('../img/prism-pink-background.jpg');
+   background-attachment: fixed;
+   background-size:cover;
+}
+
+div.album > p:first-of-type{
+   position:absolute;
+   font-size: 18px;
+   width:80%;
+   padding:5px;
+   margin-top:40px;
+   left:50%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+
+div.album > p:nth-of-type(2){
+   position:absolute;
+   font-size: 18px;
+   font-weight: bold;
+   padding:5px;
+   margin-top:160px;
+   left:50%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+
+div.album > p:nth-of-type(3){
+   position:absolute;
+   font-size: 18px;
+   margin-top:190px;
+   padding:5px;
+   font-weight: bold;
+   left:50%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+
+div.album > p:nth-of-type(4){
+   position:absolute;
+   font-size: 18px;
+   margin-top:160px;
+   padding:5px;
+   width:450px;
+   left:10%;
+}
+
+div.album > p:nth-of-type(5){
+   position:absolute;
+   font-size: 18px;
+   margin-top:380px;
+   padding:5px;
+   width:450px;
+   left:10%;
+}
+
+div.album > ul{
+   position:absolute;
+   font-size:18px;
+   margin-top: 260px;
+   width:360px;
+   left:50%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+/*list start here*/
+div.album > ul > li:first-of-type{
+   display:block;
+   background-color: #e4ede8;
+   text-align: center;
+   list-style-type: none;
+   padding:15px;
+}
+
+div.album > ul> li:nth-of-type(2){
+   display:block;
+   background-color: #e4ede8;
+   text-align: center;
+   list-style-type: none;
+   padding:15px;
+}
+
+div.album > ul > li:nth-of-type(3){
+   display:block;
+   background-color: #b5e3c7;
+   text-align: center;
+   list-style-type: none;
+   padding:15px;
+}
+
+div.album > ul > li:nth-of-type(4){
+   display:block;
+   background-color: #cdf5f7;
+   text-align: center;
+   list-style-type: none;
+   padding:15px;
+}
+
+div.album > ul > li:nth-of-type(5){
+   display:block;
+   background-color: #cdf5f7;
+   text-align: center;
+   list-style-type: none;
+   padding:15px;
+}
+/*list ends here*/
+
+div.album > p:nth-of-type(6){
+   position:absolute;
+   font-size: 18px;
+   margin-top:160px;
+   padding:5px;
+   width:450px;
+   right:10%;
+}
+
+div.album > p:nth-of-type(7){
+   position:absolute;
+   font-size: 18px;
+   margin-top:380px;
+   padding:5px;
+   width:450px;
+   right:10%;
+}
+
+div.album > p:nth-of-type(8){
+   position:absolute;
+   font-size: 18px;
+   margin-top:600px;
+   padding:5px;
+   width:450px;
+   right:12%;
+}
+
+
+
+div.audio{
+   position:relative;
+   background: rgb(229,237,233);
+   background: linear-gradient(132deg, rgba(229,237,233,1) 16%, rgba(193,241,212,1) 43%, rgba(205,245,247,1) 71%);
+}
+
+iframe{
+   position: relative;
+   left:50%;
+   top:20%;
+   transform: translate(-50%,0);  /*center the p*/
+   width:760px;
+   height:80px;
+   border: 0px solid black;
+}
+div.audio > h1{
+   font-family: 'Cinzel', serif;
+   font-size: 48px;
+   position: absolute;
+   left:50%;
+   top:15%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+
+div.audio > h2{
+   font-family: 'Cinzel', serif;
+   font-size:24px;
+   position: absolute;
+   left:50%;
+   top:20%;
+   transform: translate(-50%,0);  /*center the p*/
+}
+
+div.audio > a{
+   color:#545754;
+   position: absolute;
+   bottom:100px;
+   font-size: 36px;
+   font-weight: bold;
+   left:50%;
+   transform: translate(-50%,0);  /*center the p*/
 }
