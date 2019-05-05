@@ -12,34 +12,31 @@ body {
    font-family: 'Roboto Condensed', sans-serif;
    font-weight: 400;
    line-height: 1.4;
+   color: #333e42;
    /* color: #3B4C7A; */
-   color: #1a5ac0;
+   /* color: #1a5ac0; */
 }
 
 h1 {
    position: absolute;
-   /* font-family: 'Merriweather', serif; */
    font-family: 'Anton', sans-serif;
    font-weight: 400;
    font-size: 1.6rem;
-   margin: 15px 20px;
-   color: #35373b;
+   margin: 20px;
+   /* margin: 20px 333px; */
 }
 
 .quote-container {
    font-size: 1.5rem;
-   /* font-weight: 700; */
+   font-weight: 300;
    width: 535px;
-   margin: 70px auto 20px;
-   font-family: 'Abril Fatface', cursive;
-   /* color: #525779; */
+   margin: 86px auto 20px;
 }
 
 .quote-container > cite {
    display: flex;
    justify-content: flex-end;
    font-weight: 300;
-   font-family: 'Merriweather', serif;
    font-size: .9rem;
 }
 
@@ -57,7 +54,7 @@ h1 {
    margin: 30px auto;
    width: 518px;
    /* background-color: skyblue; */
-   color: #525779;
+   color: #333e42;
 }
 
 li {
@@ -71,15 +68,15 @@ li {
 }
 
 #left-side a:link {
-   color: orange;
+   color: #333e42;
 }
 
 #left-side a:visited {
-   color: #35373b;
+   color: #333e42;
 }
 
 #left-side a:hover {
-   background-color: pink;
+   color: #7571b6;
    transition: .3s;
 }
 
@@ -90,15 +87,17 @@ li {
    width: 50%;
    overflow-y: auto;
    /* background-color: #D6D3D2; */
-   background-color: #f2e5d2;
+   /* background-color: #383D43; */
+   /* background-color: #2A3780; */
+   background-color: #f2f2f2;
+   color: #333e42;
 }
 
 h2 {
-   font-family: 'Roboto Condensed', sans-serif;
-   font-weight: 700;
-   font-size: 2rem;
+   font-family: 'Anton', sans-serif;
+   font-size: 1.5rem;
    text-align: center;
-   color: #797977;
+   color: #333e42;
    margin: 20px 0;
 }
 
@@ -132,14 +131,28 @@ p {
 }
 
 #right-side a:link {
-   color: yellow;
+   color: #333e42;
 }
 
 #right-side a:visited {
-   color: green;
+   color: #333e42;
 }
 
 #right-side a:hover {
-   color: pink;
+   color: #7571b6;
    transition: .3s;
 }
+
+p:nth-last-child(1) {
+   margin-bottom: 10px;
+   margin-right: 30px;
+   text-align: right;
+   color: #333e42;
+   font-size: .8rem;
+}
+
+
+/* -----------------color codes-------------------- */
+/* #a1afff  for links left side
+#f2f2f2 left side background
+#333e42 */
