@@ -109,7 +109,7 @@ i {
 }
 
 a:link {
-   text-decoration: none;
+   text-decoration: #898989;
 }
 
 a:visited {
@@ -164,8 +164,6 @@ h3 {
 }
 
 .u {
-   /* display: flex;
-   flex-direction: row; */
    font-family: 'Playfair Display', serif;
    font-style: normal;
    font-variant: small-caps;
