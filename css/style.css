@@ -1,7 +1,7 @@
 body {
    margin: auto;
    width: 1366px;
-   background-color: #f4f4f4;
+   background-color: white;
    /* background-color: #c9c9c9; */
    /* background-color: none; */
 }
@@ -14,7 +14,7 @@ nav {
    width: 100vw;
    height: 30px;
    background-color: black;
-   box-shadow: 0 10px 30px white;
+   box-shadow: 0 0 5px black;
    list-style-type: none;
    padding-top: 15px;
 }
@@ -46,13 +46,13 @@ h1 {
    display: flex;
    justify-content: center;
    text-align: center;
-   margin-top: 163px;
+   margin-top: auto;
    padding-top: 200px;
-   padding-bottom: 100px;
+   padding-bottom: 200px;
    font-family: 'Playfair Display SC', serif;
    font-variant: small-caps;
    font-size: 6rem;
-   color: #898989;
+   color: white;
    transition: 3s;
    background-image: url('/Users/celina/Documents/GitHub/semester-project--spring-2019-web-design-1-at-queens-college/img/woods.png');
 }
@@ -89,10 +89,10 @@ h2 {
    margin-left: 30px; */
    position: relative;
    border-bottom: 8px solid #898989;
-   padding-bottom: 150px;
+   padding-bottom: 60px;
    display: flex;
    text-align: center;
-   top: 480px;
+   top: 550px;
    font-family: 'Playfair Display', serif;
    font-style: normal;
    font-variant: small-caps;
@@ -146,7 +146,7 @@ a:visited {
 }
 
 a:hover {
-   color: white;
+   color: black;
    transition: 500ms;
 }
 
@@ -160,7 +160,7 @@ main {
 }
 
 h3 {
-   padding-top: 480px;
+   padding-top: 550px;
    padding-bottom: 60px;
    font-family: 'Playfair Display SC', serif;
    font-style: normal;
