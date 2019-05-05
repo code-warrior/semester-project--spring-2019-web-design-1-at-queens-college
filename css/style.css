@@ -1,8 +1,9 @@
 body {
    margin: auto;
    width: 1366px;
+   background-color: #f4f4f4;
    /* background-color: #c9c9c9; */
-   background-color: black;
+   /* background-color: none; */
 }
 
 nav {
@@ -27,7 +28,7 @@ nav {
 }
 
 nav > ul > li {
-   color: #c9c9c9;
+   color: white;
    font-style: normal;
    font-variant: small-caps;
    text-align: center;
@@ -50,8 +51,9 @@ h1 {
    font-family: 'Playfair Display SC', serif;
    font-variant: small-caps;
    font-size: 6rem;
-   color: #c9c9c9;
+   color: #898989;
    transition: 3s;
+   background-image: url('/Users/celina/Documents/GitHub/semester-project--spring-2019-web-design-1-at-queens-college/img/h1image.png');
 }
 
 /* blockquote {
@@ -85,7 +87,7 @@ h2 {
    list-style-position: inside;
    margin-left: 30px; */
    position: relative;
-   border-bottom: 8px solid #c9c9c9;
+   border-bottom: 8px solid #898989;
    padding-bottom: 150px;
    display: flex;
    text-align: center;
@@ -96,13 +98,13 @@ h2 {
    font-weight: 400;
    font-size: 20px;
    line-height: 2;
-   color: #c9c9c9;
+   color: #898989;
 }
 
 .i li:nth-child(1) {
    padding: 20px;
    width: 227px;
-   border-right: 1px solid #c9c9c9;
+   border-right: 1px solid #898989;
 }
 
 .i li:nth-child(2) {
@@ -114,8 +116,8 @@ h2 {
 .i li:nth-child(3) {
    padding: 20px;
    width: 258px;
-   border-right: 1px solid #c9c9c9;
-   border-left: 1px solid #c9c9c9;
+   border-right: 1px solid #898989;
+   border-left: 1px solid #898989;
 }
 
 .i li:nth-child(4) {
@@ -127,7 +129,7 @@ h2 {
 .i li:nth-child(5) {
    padding: 20px;
    width: 209px;
-   border-left: 1px solid #c9c9c9;
+   border-left: 1px solid #898989;
 }
 
 i {
@@ -139,7 +141,7 @@ a:link {
 }
 
 a:visited {
-   color: #c9c9c9;
+   color: #898989;
 }
 
 a:hover {
@@ -153,7 +155,7 @@ main {
    margin-top: 50px;
    width: 1024px;
    text-align: center;
-   color: #c9c9c9;
+   color: #898989;
 }
 
 h3 {
@@ -167,8 +169,8 @@ h3 {
 }
 
 .Review1 {
-   border-top: 1px solid #c9c9c9;
-   border-bottom: 1px solid #c9c9c9;
+   border-top: 1px solid #898989;
+   border-bottom: 1px solid #898989;
    padding-top: 40px;
    padding-bottom: 20px;
 }
@@ -180,7 +182,7 @@ h3 {
 
 .Review2 {
    margin-top: 20px;
-   border-top: 1px solid #c9c9c9;
+   border-top: 1px solid #898989;
    padding-top: 40px;
    padding-bottom: 20px;
 }
