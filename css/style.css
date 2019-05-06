@@ -1,0 +1,104 @@
+body{
+height: auto;
+  font-family: Chivo, sans-serif;
+  background-color: black;
+
+}
+h1{
+  width: 600px;
+  margin-left: 160px;
+  padding-left: 50px;
+
+
+}
+.by{
+  margin-left:0px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 200;
+  color: #869CB0;
+}
+
+.album{
+ font-weight: 300;
+  font-size: 60px;
+  color: #869CB0;
+}
+.band{
+font-weight: 300;
+  font-size: 60px;
+  color:#869CB0;
+}
+
+
+.img{
+margin-top: -180px;
+margin-left: 40px;
+}
+.line{
+  margin: 80px;
+}
+
+main {
+   display: flex;
+
+}
+figure {
+   position: relative;
+}
+figure > img {
+   padding-top: 80px;
+
+   width: 400px;
+   height: 300px;
+}
+figure + p {
+  color: #869CB0;
+   text-align: center;
+   font-weight: 800;
+   font-size: 30px;
+   padding-top: 5px;
+   position: relative;
+}
+ul{
+  list-style-type: none;
+  border-image: url();
+  font-size: 30px;
+  font-weight: lighter;
+  color: #869CB0;
+  margin-left: 100px;
+}
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   color: grey;
+}
+
+a:hover {
+   background-color: white;
+}
+
+a:active {
+   background-color: #96804D;
+   color: white;
+}
+.headphone{
+
+  margin-left: 480px;
+}
+
+.line2{
+  margin: 80px;
+}
+
+.long{
+  background-image:url("3guys.jpg");
+
+  color:#869CB0;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+
+}
