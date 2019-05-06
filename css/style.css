@@ -1,0 +1,137 @@
+a,abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;border:0;padding:0;vertical-align:baseline;font:inherit}article,aside,details,figcaption,figure,footer,header,menu,nav,section{display:block}body{line-height:1;font-family:sans-serif}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote::before,blockquote::after,q::before,q::after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Rambla, sans-serif;
+   margin-left: 90px;
+   background-color: white;
+   color: black;
+}
+
+header {
+   background-color: white;
+   color: black;
+   text-align: center;
+}
+
+.sidenav {
+  height: 100%;
+  width: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding-top: 160px;
+}
+
+.sidenav a {
+  padding: 30px 0 30px 12px;
+  text-decoration: none;
+  font-size: 26px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidenav a:hover {
+  color: black;
+  background-color: white;
+  text-decoration: underline;
+}
+
+.IMG1 {
+  display: flex;
+  justify-content: center;
+}
+
+.members {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  padding:10px;
+  margin: 20px;
+  font-size: 25px;
+}
+
+.artist {
+  display: flex;
+  justify-content: center;
+}
+
+.artist img {
+  padding-left: 20px;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: black;
+  background-color: white;
+}
+
+.table {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: lightgrey;
+  padding: 30px 0px 30px 0px;
+}
+
+.table td {
+  font-size: 25px;
+  padding: 5px 400px 5px 5px;
+  border: 1px solid black;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+tr td:hover {
+  background-color: black;
+}
+
+tr td:hover a{
+  color : white;
+}
+
+.table table {
+  border-collapse: collapse;
+}
+
+.reviews {
+  text-indent: 50px;
+  padding-top: 50px;
+}
+
+.reviews a {
+  font-size: 25px;
+}
+
+.reviews a:hover {
+color: white;
+background-color: black;
+text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+  padding: 5px 90px 5px 90px;
+  text-indent: 50px;
+  text-align: left;
+}
