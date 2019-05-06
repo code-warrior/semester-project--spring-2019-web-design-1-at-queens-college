@@ -4,7 +4,7 @@ html{
 
 body{
    position: relative;
-   background-color:#E6FFFE;
+   background-color:#e5ecf2;
    color: #545754;
    font-family: 'Quicksand', sans-serif;
    font-weight: 400;
@@ -14,8 +14,8 @@ body{
 }
 
 div{
-   padding:6em;
-   height:calc(100vh - 12em);
+   padding:7em;
+   height:calc(100vh - 14em);
 }
 
 p.credit{
@@ -66,14 +66,14 @@ div.intro > p:first-of-type{
    width:15%;
    padding: 5px;
    float:right;
-   right:620px;
+   right:700px;
    margin:100px 0px 200px 200px;
    z-index: 2;
 }
 
 div.intro > p:nth-of-type(2){
    overflow-wrap:unset;
-   right:345px;
+   right:400px;
    position:absolute;
    text-align: left;
    font-size:18px;
@@ -86,7 +86,7 @@ div.intro > p:nth-of-type(2){
 
 div.intro > p:nth-of-type(3){
    overflow-wrap:unset;
-   right:85px;
+   right:100px;
    position:absolute;
    text-align: left;
    font-size:18px;
@@ -242,7 +242,7 @@ iframe{
    left:50%;
    top:20%;
    transform: translate(-50%,0);  /*center the p*/
-   width:760px;
+   width:1000px;
    height:80px;
    border: 0px solid black;
 }
