@@ -1,3 +1,162 @@
-body{
-   background: linear-gradient(to bottom, #001613 0%, #00e9cd 100%)fixed;
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: #001613;
+    background-repeat:no-repeat;
+    background: -webkit-linear-gradient( to left top, #001613, #00e9cd);
+    background: -moz-linear-gradient( to left top, #001613, #00e9cd);
+    background: -ms-linear-gradient( to left top, #001613, #00e9cd);
+    background: -o-linear-gradient( to left top, #001613, #00e9cd);
+    background: linear-gradient( to left top, #001613, #00e9cd);
+   width: 100%;
+   color: #0c1413;
+   font-family: 'Lato', sans-serif;
+   overflow-x: hidden;
+}
+
+a {
+  color: #ea4141;
+}
+
+a:hover {
+  color: #1b1b1b;
+}
+
+p {
+   font-size: 2.8em;
+   justify-content: center;
+}
+
+body
+{
+  background-color: #fcfcfc;
+}
+
+h1{
+     font-size: 0.8em;
+     font-style: italic;
+     color:#3b5653;
+}
+
+h2{
+     font-size: 1.3em;
+     font-style: italic;
+     color:#3b5653;
+}
+
+
+.container {
+  position: relative;
+  width: 100vh;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #1de2ca;
+  background-color: transparent;
+  font-size: 2.1em;
+  line-height: 1em;
+  font-style: italic;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+
+.wrapper {
+  justify-content: center;
+  display: flex;
+}
+
+.tracks{
+  font-size: 3em;
+  line-height: 1em;
+  border-style: solid;
+  border-width: 5px 5px 5px 5px;
+  padding: 20px 0px 20px 0px;
+}
+
+.title{
+  font-size: 6em;
+  line-height: 1em;
+  font-style: italic;
+  color:#000202;
+}
+
+.flex-container {
+  padding: 0;
+  margin:0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  padding: 10vh;
+  width: 400px;
+  margin-top: 0px;
+  line-height: 43px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.flex-item2 {
+  padding: 1vh;
+  text-align: center;
+}
+
+.logo{
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  font-size: 4em;
+  line-height: 0.7em;
+  font-family: 'Gugi', cursive;
+}
+
+.centerBox{
+  justify-content: center;
+  display: flex;
 }
