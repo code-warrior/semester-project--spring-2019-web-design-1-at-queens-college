@@ -1,0 +1,161 @@
+#left-side {
+   float: left;
+   width: 50%;
+   height: 100%;
+   overflow: hidden;
+   position: fixed;
+   /* background-color: #FAF5F4; */
+   /* background-color: #F2E5D2; */
+}
+
+body {
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 400;
+   line-height: 1.4;
+   color: #333e42;
+   /* color: #3B4C7A; */
+   /* color: #1a5ac0; */
+}
+
+h1 {
+   position: absolute;
+   font-family: 'Anton', sans-serif;
+   font-weight: 400;
+   font-size: 1.6rem;
+   margin: 20px;
+   /* margin: 20px 333px; */
+}
+
+.quote-container {
+   font-size: 1.5rem;
+   font-weight: 300;
+   width: 535px;
+   margin: 86px auto 20px;
+}
+
+.quote-container > cite {
+   display: flex;
+   justify-content: flex-end;
+   font-weight: 300;
+   font-size: .9rem;
+}
+
+.album-container {
+   display: flex;
+   flex-direction: column;
+   width: 200px;
+   margin: auto;
+   text-align: center;
+   font-weight: 300;
+   font-size: .8rem;
+}
+
+.album-tracks {
+   margin: 30px auto;
+   width: 518px;
+   /* background-color: skyblue; */
+   color: #333e42;
+}
+
+li {
+   list-style-type: decimal-leading-zero;
+   list-style-position: inside;
+   line-height: 1.7;
+}
+
+#left-side a {
+   text-decoration: none;
+}
+
+#left-side a:link {
+   color: #333e42;
+}
+
+#left-side a:visited {
+   color: #333e42;
+}
+
+#left-side a:hover {
+   color: #7571b6;
+   transition: .3s;
+}
+
+/* -------------right----side------------------------------ */
+
+#right-side {
+   float: right;
+   width: 50%;
+   overflow-y: auto;
+   /* background-color: #D6D3D2; */
+   /* background-color: #383D43; */
+   /* background-color: #2A3780; */
+   background-color: #f2f2f2;
+   color: #333e42;
+}
+
+h2 {
+   font-family: 'Anton', sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+   color: #333e42;
+   margin: 20px 0;
+}
+
+p {
+   margin: 20px 0;
+}
+
+.all-music-review {
+   margin: 40px auto;
+   width: 525px;
+}
+
+.all-music-review > cite {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.ecm-review {
+   margin: 40px auto;
+   width: 525px;
+}
+
+.ecm-review > cite {
+   display: flex;
+   justify-content: flex-end;
+}
+
+#right-side a {
+   font-weight: 300;
+   text-decoration: none;
+}
+
+#right-side a:link {
+   color: #333e42;
+}
+
+#right-side a:visited {
+   color: #333e42;
+}
+
+#right-side a:hover {
+   color: #7571b6;
+   transition: .3s;
+}
+
+p:nth-last-child(1) {
+   margin-bottom: 10px;
+   margin-right: 30px;
+   text-align: right;
+   color: #333e42;
+   font-size: .8rem;
+}
+
+
+/* -----------------color codes-------------------- */
+/* #a1afff  for links left side
+#f2f2f2 left side background
+#333e42 */
+
+/* img file replace with an image placed in img folder
+original source: https://cps-static.rovicorp.com/3/JPG_500/MI0001/797/MI0001797553.jpg?partner=allrovi.com */
