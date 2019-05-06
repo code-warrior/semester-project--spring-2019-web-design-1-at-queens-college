@@ -1,0 +1,189 @@
+body{
+	background-color:#000000;
+	font-family: 'Open Sans', sans-serif;
+	color:white;
+	font-size: 13px;
+}
+
+p{
+	margin-bottom: 10px;
+}
+
+a{
+	color:white;
+	text-decoration: none;
+}
+
+ol{
+	list-style-type: decimal;
+}
+
+li{
+	margin: 10px 0;
+	
+}
+
+header {
+	font-weight:900;
+	font-size: 14px;
+	text-align: center;
+	margin-top:20px;
+}
+
+header a{
+	text-decoration: none;
+}
+
+main {
+	max-width: 1024px;
+	background-image:url('../img/bgimg.jpg');
+	background-repeat: no-repeat;
+	margin:20px auto 0 auto;
+	line-height:1.2;
+	padding: 20px 50px;
+	display:flex;
+	text-align: justify;
+}
+
+.main-body{
+	flex: 3;
+	order:2;
+	padding:5px 20px 5px 20px;
+	font-size: 11px;
+	background-color:rgba(29,29,29,.80);
+	margin-right:15px;
+}
+
+.main-bodyIndex{
+	flex: 3;
+	order:2;
+	padding:0px 20px 0px 20px;
+	font-size: 11px;
+}
+
+.main-bodyTracks{
+	flex: 3;
+	order:2;
+	padding:20px 20px 0px 20px;
+	font-size: 11px;
+	background-color:rgba(29,29,29,.80);
+	margin-right:15px;
+	text-align: center;
+}
+
+.main-bodyBanners{
+	flex: 3;
+	order:2;
+	font-size: 11px;
+	background-color:rgba(29,29,29,.80);
+	margin-right:15px;
+	text-align: center;
+}
+
+.storeBanner{
+	margin: 50px 0 0 70px;
+}
+
+.storeBanner2{
+	margin: 150px 0 0 70px;
+}
+
+.storeBanner3{
+	margin: 250px 0 0 70px;
+}
+
+
+.storeBanner4{
+	margin: 350px 0 0 70px;
+}
+
+.artist-bar{
+	flex: 1;
+	order: 1;
+	text-align: center;
+}
+
+.artistBox, .navBox{
+	background: url("../img/artist-top-bottom.jpg") no-repeat;
+}
+
+.info-bar{
+	flex: 1;
+	order: 3;
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 180px;
+}
+
+.artist-bar div, .info-bar div{
+	width: 180px;
+	height: 180px;
+	
+}
+
+#aakaashWrapper, #aminoWrapper, #qasimWrapper{
+	width: 158px;
+	height: 158px;
+	display: inline-block;
+}
+
+#aakaashWrapper:hover{
+	background: url("../img/aakaash-israni2.jpg") no-repeat; 
+	margin: 0;
+}
+
+#aminoWrapper:hover{
+	background: url("../img/Amino-Belyamani2.jpg") no-repeat; 
+	margin: 0;
+}
+
+#qasimWrapper:hover{
+	background: url("../img/Qusim-Naqvi2.jpg") no-repeat; 
+	margin: 0;
+}
+
+.navBox em{
+	visibility: hidden;
+}
+
+.navBox:hover em{
+	visibility: visible;
+}
+
+.navBox span{
+  position:absolute; 
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+  z-index: 1; 
+}
+
+.reviewContainer{
+	max-width: 1024px;
+	margin: 0 auto 0 auto;
+	display: flex;
+	font-size:9px;
+	justify-content: center;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+.reviewButton{
+	box-sizing: border-box;
+	flex-basis: 12%;
+	background:url("../img/review-button-left.jpg") no-repeat;
+	height: 20px;
+}
+
+.reviewBox span{
+	position:absolute; 
+	width:100%;
+	height:100%;
+	top:0;
+	left: 0;
+	z-index: 1; 
+}
