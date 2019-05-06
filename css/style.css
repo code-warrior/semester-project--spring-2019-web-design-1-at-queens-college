@@ -53,7 +53,7 @@ div.intro > h1{
 
 .protrait{
    position:absolute;
-   top:10%;
+   top:0px;
    left:-350px;
    z-index: 1;
 }
@@ -67,7 +67,7 @@ div.intro > p:first-of-type{
    padding: 5px;
    float:right;
    right:700px;
-   margin:100px 0px 200px 200px;
+   margin:40px 0px 200px 200px;
    z-index: 2;
 }
 
@@ -80,7 +80,7 @@ div.intro > p:nth-of-type(2){
    width:15%;
    padding: 5px;
    float:left;
-   margin:100px 0px 200px 0px;
+   margin:40px 0px 200px 0px;
    z-index: 2;
 }
 
@@ -93,7 +93,7 @@ div.intro > p:nth-of-type(3){
    width:15%;
    padding: 5px;
    float:left;
-   margin:100px 0px 200px 0px;
+   margin:40px 0px 200px 0px;
    z-index: 3;
 }
 
