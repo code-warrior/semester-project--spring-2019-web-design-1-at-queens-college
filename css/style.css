@@ -1,0 +1,71 @@
+body {
+  display: block;
+  margin: 10px;
+  background-color: lightblue;
+  background: #b1d1b3; /* Old browsers */
+  background: -moz-radial-gradient(center, ellipse cover, #b1d1b3 0%, #e8d3b2 32%, #b1d1b3 65%, #82c9aa 100%); /* FF3.6-15 */
+  background: -webkit-radial-gradient(center, ellipse cover, #b1d1b3 0%,#e8d3b2 32%,#b1d1b3 65%,#82c9aa 100%); /* Chrome10-25,Safari5.1-6 */
+  background: radial-gradient(ellipse at center, #b1d1b3 0%,#e8d3b2 32%,#b1d1b3 65%,#82c9aa 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b1d1b3', endColorstr='#82c9aa',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+h1 {
+  display: block;
+  font-size: 6em;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+h2 {
+  display: block;
+  font-size: 2em;
+  margin: 2px;
+}
+header {
+  display: block;
+}
+ol {
+  display: block;
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin-left: 13px;
+  margin: 18px;
+  font-family: 'Staatliches', cursive;
+
+}
+li{
+  display: list-item;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 30px;
+}
+p {
+  display: block;
+  margin: 16px;
+  line-height: 23px;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+h1, h2 , blockquote{
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  color: #FEFBEB;
+}
+div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+h3{
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 36px;
+  font-family: 'Staatliches', cursive;
+
+}
+blockquote{
+  font-size: 34px;
+}
