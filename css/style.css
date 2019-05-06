@@ -1,0 +1,125 @@
+body{
+  background-image: url("../img/beach-cave-bw.jpg");
+  height: 1024px;
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: "Caudex";
+  font-size: 30px;
+}
+header {
+  background-color: ;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  text-align: left;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+aside {
+  float: left;
+  color: #fff;
+  font-size: 50px;
+}
+
+.box{
+  background: #f3f3f3;
+  width: 1000px;
+  height: 900px;
+  text-align: center;
+  margin-left: 600px;
+  padding-top: 20px;
+  opacity: 0.6;
+  ;
+}
+
+.box-2{
+  background: #f3f3f3;
+  width: 1000px;
+  height: 900px;
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 600px;
+  padding-top: 20px;
+  opacity: 0.6;
+}
+
+.box-3{
+  background: #f3f3f3;
+  width: 1000px;
+  height: 900px;
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 600px;
+  padding-top: 20px;
+  opacity: 0.6;
+}
+
+.box-4{
+  background: #f3f3f3;
+  width: 1000px;
+  height: 900px;
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 600px;
+  padding-top: 20px;
+  opacity: 0.6;
+
+}
+
+.box-5{
+  background: #f3f3f3;
+  width: 1000px;
+  height: 600px;
+  text-align: center;
+  margin-top: 500px;
+  margin-left: 600px;
+  margin-bottom: 300px;
+  padding-top: 20px;
+  opacity: 0.6;
+}
+.text{
+  font-size: 23px;
+  text-align: justify;
+  margin: 60px;
+  margin-top: 70px;
+}
+.text-2{
+  font-size: 23px;
+  text-align: justify;
+  margin: 60px;
+  margin-top: 70px;
+}
+.trk-text{
+  text-align: center;
+  margin-right: 40px;
+}
+
+.title{
+  font-size: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.title-2{
+  font-size: 50px;
+  text-align: left;
+  margin-left: 60px;
+}
+
+@media screen and (max-width: 1024px){
+  #container {
+    width: 740px;
+  }
+}
+@media (max-width: 840px){
+  #container{
+    width 91.42%;
+  }
+}
+
+/* IMG CODE */
+.responsive {
+  width: 100%;
+  height: auto;
+}
