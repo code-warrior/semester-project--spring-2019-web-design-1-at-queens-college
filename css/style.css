@@ -1,0 +1,57 @@
+*{
+   font-family: 'Roboto Mono', monospace!important;
+   text-align: center;
+   text-decoration: none;
+}
+body{
+   background-color: #929292;
+   color: inherit;
+   line-height:40px;
+}
+h1{
+   font-size: 56px;
+   font-weight: 700;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   background-color: #464646;
+   color: #f8f8f8;
+}
+h2{
+   font-size: 42px;
+   padding-top: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 20px;
+   background-color: #f7f7f7;
+   color: #2e2e2e;
+}
+p{
+   font-size: 24px;
+   background-color: inherit;
+   color: #2e2e2e;
+}
+.par1{
+   background-color: inherit;
+   background-image: url(../img/microphone.jpg);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: center;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   color: #ffffff;
+   border-top: 20px solid #e6e6e6;
+   border-bottom: 20px solid #e6e6e6;
+   border-top-style: ridge;
+   border-bottom-style: groove;
+}
+.par2, .par3, .par4, .par, .par5, .par6, .par7, .par8, .par9, .par10, .par11, .par12{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   padding-left:100px;
+   padding-right:100px;
+   color: #2e2e2e;
+   background-color: #f7f7f7;
+}
+.par4{
+   font-style: italic;
+}
