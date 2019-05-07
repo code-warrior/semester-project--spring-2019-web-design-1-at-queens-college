@@ -9,7 +9,18 @@
 	<link rel="stylesheet" href="css/swapimagesonhover.css" >
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-	 <script src="js/swapimagesonhover.js"></script>
+	<script>
+	(function($) {	
+    $(document).ready(function() {
+        $('.swim').each(function(index, element) {   
+            var dataImage = $(this).data("img");
+            var dataClass = $(this).attr("class");
+            $(this).after('<img src="' + dataImage + '" class= "' + dataClass + '"/>');
+            $(this).parent().children('img').wrapAll('<div class="swim-container"></div>');
+        });
+    })
+	})( jQuery );
+	</script>
 </head>
 <body>
 	<header>
