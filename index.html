@@ -1,11 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title></title>
-   <link rel="stylesheet" href="css/reset.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dysnomia | by Dawn of Midi ● Home </title>
+	<link rel="stylesheet" type="text/css" href="css/home.css" />
+	<link rel="stylesheet" type="text/css" href="css/reset.css" />
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="https://use.typekit.net/ncw8xrb.css">
 </head>
-<body>
+
+	<main>
+		<div class="midi">
+			<div class="midi__title-wrap">
+				<h1 class="midi__title"> <img src="img/domlogo.png" alt="Dawn of Midi Logo" width="50" height="50"> </h1>
+			</div>
+
+			<div class="midi__links">
+				<a href="index.html">Home</a> ―
+				<a href="reviews.htm">Reviews</a>
+			</div>
+
+			<p class="midi__top">
+				Click & Drag for Tracklist
+		</div>
+
+		<div class="tracklist" id="app">
+			<!-- javascript tracklist -->
+		</div>
+	</main>
+
+	<div class="cursor">
+		<div class="cursor__inner cursor__inner--circle"></div>
+		<div class="cursor__inner cursor__inner--dot"></div>
+	</div>
+
+	<script src="scripts/index.js"></script>
 </body>
 </html>
