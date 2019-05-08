@@ -1,0 +1,80 @@
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 16rem;
+  line-height: .80;
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+  color: transparent;
+  background: url('../img/Dawn of Midi.jpg');
+   -webkit-background-clip: text;
+}
+h2 {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+}
+h3{
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+}
+h4 {
+  text-align: center;
+  margin:auto;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+  color: transparent;
+  background: url('../img/Dawn of Midi Black.jpg');
+   -webkit-background-clip: text;
+}
+main {
+  font-weight: 900;
+  font-family:'Roboto', sans-serif;
+}
+li{
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: decimal-leading-zero;
+}
+ol {
+  margin-bottom: 150px;
+}
+div {
+  font-family: 'Lato', sans-serif;
+}
+body {
+  background-color: #6A6A6A;
+}
+p {
+  margin-left: 256px;
+  margin-right: 256px;
+  text-align: justify;
+  line-height: 1.5;
+  font-weight: 400;
+}
+main > p {
+  text-align: center;
+  line-height: .75
+}
+footer {
+  text-align: center;
+}
+a:link {
+  text-decoration: underline;
+  color: black;
+}
+a:hover {
+  background-color: #FFFFFF
+}
+a:active {
+  background-color: white
+}
+a:visited {
+  color: #BCBCBC
+}
